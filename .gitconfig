@@ -1,0 +1,19 @@
+[core]
+  editor = subl -n -w
+  excludesfile = /Users/studdmnky/.gitignore_global
+[user]
+  name = Tommy Vo
+  email = tommy.l.vo@gmail.com
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path = 
+[alias]
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  st = status
+  aa = add --all
+  co = checkout
+  dc = diff --cached
+  br = branch
+  sp = smart-pull
+[push]
+  default = matching

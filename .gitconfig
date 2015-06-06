@@ -14,7 +14,7 @@
   co = checkout
   dc = diff --cached
   br = branch
-  sp = smart-pull
+  sp = smart-pull # need to install the gem git-smart
 [push]
   default = matching
 [color]

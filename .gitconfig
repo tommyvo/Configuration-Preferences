@@ -17,3 +17,5 @@
   sp = smart-pull
 [push]
   default = matching
+[color]
+  ui = always

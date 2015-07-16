@@ -13,9 +13,9 @@ export PATH=/usr/local/bin:$PATH
 source ~/.git-prompt.sh
 PS1='\h:\W \u$(__git_ps1 " \[\033[0;33m\](%s)\[\033[0m\]")\$ '
 
-# Git Auto-Complete
-# if [ -f ~/.git-completion.bash ]; then
-#   . ~/.git-completion.bash
-# fi
+# Git Auto-Complete (bash-completion via brew)
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+  . `brew --prefix`/etc/bash_completion
+fi
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

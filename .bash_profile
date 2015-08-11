@@ -11,7 +11,10 @@ export PATH=/usr/local/bin:$PATH
 
 # Colorized Git branch
 source ~/.git-prompt.sh
-PS1='\h:\W \u$(__git_ps1 " \[\033[0;33m\](%s)\[\033[0m\]")\$ '
+GIT_PS1_SHOWDIRTYSTATE=true
+NORMAL="\e[0m"
+YELLOW="\e[0;33m"
+PS1='\u@\h \w $(__git_ps1 "'$YELLOW'(%s) ")'$NORMAL'\$ '
 
 # Git Auto-Complete (bash-completion via brew)
 if [ -f `brew --prefix`/etc/bash_completion ]; then

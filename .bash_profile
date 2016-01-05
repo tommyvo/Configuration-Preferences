@@ -2,7 +2,7 @@ alias "ls"="ls -al"
 alias "lsl"="ls -l"
 alias "cls"="clear"
 alias "dir"="ls"
-alias "shutter"="killall PTPCamera ; gphoto2 --get-config /main/status/shuttercounter"
+alias "shutter_count"="killall PTPCamera ; gphoto2 --get-config /main/status/shuttercounter"
 alias "ll"="ls"
 
 # Enable colors, and set the colors

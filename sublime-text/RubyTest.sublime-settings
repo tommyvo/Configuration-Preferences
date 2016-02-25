@@ -1,0 +1,7 @@
+// ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/RubyTest.sublime-settings
+
+{
+  "save_on_run": true,
+  "check_for_rvm": true,
+  "check_for_bundler": true
+}

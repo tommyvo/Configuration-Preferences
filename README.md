@@ -3,14 +3,15 @@ System preferences and configuration files.
 
 ### Basic Profile Configuration/Preferences
 
-Files:
+The following files go into `~/`:
+
 ```
 .bash_profile
 .gemrc
+.git-ignore
+.git-prompt.sh
 .gitconfig
 ```
-All go into `~/`
-
 ### Sublime Text 2
 
-`Preferences.sublime-settings` => `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Default/`
+`Preferences.sublime-settings-{user | default}` => `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Default/`

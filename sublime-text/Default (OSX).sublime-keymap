@@ -1,0 +1,61 @@
+// ~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap
+
+[
+  // single test (default)
+  { "keys": ["super+shift+r"], "command": "run_single_ruby_test",
+    "context": [ { "key": "selector", "operator": "equal",
+                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
+               } ]
+  },
+
+  // single test (RubyMine)
+  { "keys": ["ctrl+shift+r"], "command": "run_single_ruby_test",
+    "context": [ { "key": "selector", "operator": "equal",
+                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
+               } ]
+  },
+
+  // test file (default)
+  { "keys": ["super+shift+t"], "command": "run_all_ruby_test",
+      "context": [ { "key": "selector", "operator": "equal",
+         "operand": "source.ruby, source.rspec, text.gherkin.feature"
+                } ]
+  },
+
+  // test last test file (default)
+  { "keys": ["super+shift+e"], "command": "run_last_ruby_test" },
+
+  // test last test file (RubyMine)
+  { "keys": ["ctrl+r"], "command": "run_last_ruby_test" },
+
+  // show test panel (default)
+  { "keys": ["super+shift+x"], "command": "show_test_panel" },
+
+  // verify ruby syntax (default)
+  { "keys": ["alt+shift+v"], "command": "verify_ruby_file",
+    "context": [ { "key": "selector", "operator": "equal",
+                   "operand": "source.ruby"
+               } ]
+  },
+
+  // switch between code and test in single mode (default)
+  { "keys": ["super+period"],
+      "command": "switch_between_code_and_test",
+      "args": {"split_view": false},
+      "context": [ { "key": "selector", "operator": "equal",
+                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
+               } ]
+  },
+
+  // switch between code and test in split view (default)
+  { "keys": ["super+ctrl+period"],
+      "command": "switch_between_code_and_test",
+      "args": {"split_view": true},
+      "context": [ { "key": "selector", "operator": "equal",
+                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
+               } ]
+  },
+
+  // create new file (default)
+  { "keys": ["super+shift+c"], "command": "generate_file" }
+]

@@ -9,13 +9,12 @@ import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa
 ### Install the following
 
 - All Autocomplete
-- CoffeeScript
+- Better CoffeeScript
 - Cucumber
 - Git
 - GitGutter
 - Indent XML
 - JsFormat
-- JsMinifier
 - LESS
 - Pretty JSON
 - RSpec

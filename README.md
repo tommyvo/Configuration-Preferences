@@ -14,4 +14,5 @@ The following files go into `~/`:
 ```
 ### Sublime Text 2
 
-`Preferences.sublime-settings-{user | default}` => `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Default/`
+`Preferences.sublime-settings` => `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings`
+`RubyTest.sublime-settings` => `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/RubyTest.sublime-settings`

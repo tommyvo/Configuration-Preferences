@@ -14,6 +14,7 @@ https://packagecontrol.io/installation
 - LESS
 - Pretty JSON
 - RSpec
+- Ruby Block Converter
 - Ruby Slim
 - RubyTest
 - Sass

@@ -6,6 +6,7 @@ https://packagecontrol.io/installation
 
 - All Autocomplete
 - Better CoffeeScript
+- BracketHighlighter
 - Cucumber
 - Git
 - GitGutter

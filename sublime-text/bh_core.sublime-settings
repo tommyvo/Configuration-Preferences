@@ -7,8 +7,8 @@
     },
 
     "unmatched": {
-        "icon": "none",
-        "style": "outline"
+      "icon": "none",
+      "style": "outline"
     },
     "curly": {},
     "round": {},

@@ -1,3 +1,23 @@
 {
-  "no_multi_select_icons": true
+  "no_multi_select_icons": true,
+  "bracket_styles": {
+    "default": {
+      "icon": "none",
+      "style": "underline"
+    },
+
+    "unmatched": {
+        "icon": "none",
+        "style": "outline"
+    },
+    "curly": {},
+    "round": {},
+    "square": {},
+    "angle": {},
+    "tag": {},
+    "c_define": {},
+    "single_quote": {},
+    "double_quote": {},
+    "regex": {}
+  }
 }

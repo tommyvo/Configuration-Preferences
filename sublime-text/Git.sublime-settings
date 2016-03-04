@@ -1,0 +1,6 @@
+// ~/Library/Application Support/Sublime Text 3/Packages/User/Git.sublime-settings
+
+{
+  "statusbar_branch": false,
+  "statusbar_status": false
+}

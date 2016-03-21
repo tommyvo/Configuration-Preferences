@@ -13,6 +13,7 @@ https://packagecontrol.io/installation
 - Indent XML
 - JsFormat
 - LESS
+- Markdown Preview
 - Pretty JSON
 - RSpec
 - Ruby Block Converter

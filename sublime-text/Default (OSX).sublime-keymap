@@ -57,5 +57,8 @@
   },
 
   // create new file (default)
-  { "keys": ["super+shift+c"], "command": "generate_file" }
+  { "keys": ["super+shift+c"], "command": "generate_file" },
+
+  // goto anything
+  { "keys": ["super+shift+o"], "command": "show_overlay", "args": { "overlay": "goto", "show_files": true } }
 ]

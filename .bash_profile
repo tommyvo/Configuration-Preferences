@@ -16,17 +16,17 @@ GIT_PS1_SHOWDIRTYSTATE=true
 NORMAL="\[\e[0m\]"
 YELLOW="\[\e[0;33m\]"
 PS1='\u@\h \w $(__git_ps1 "'$YELLOW'(%s) ")'$NORMAL'\$ '
-# PS1='\u@\h \w '$YELLOW'$(parse_git) '$NORMAL'\$ ' # Show branch name and pair
+# PS1='\u@\h \w'$YELLOW'$(parse_git) '$NORMAL'\$ '
 
 # function to show git status on command prompt
 function parse_git {
-  BRANCH=`git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
+  BRANCH="$(__git_ps1)"
   PAIR=`git config --get user.initials`
   if [ "$PAIR" == "" ] ; then
     PAIR='UNPAIRED'
   fi
   if [ "$BRANCH" != "" ] ; then
-    echo "[$BRANCH] ($PAIR)"
+    echo "$BRANCH [$PAIR]"
   fi
 }
 

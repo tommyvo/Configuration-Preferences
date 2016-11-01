@@ -4,6 +4,7 @@ alias "cls"="clear"
 alias "dir"="ls"
 alias "shutter_count"="killall PTPCamera ; gphoto2 --get-config /main/status/shuttercounter"
 alias "ll"="ls"
+alias "gti"="git"
 
 # Enable colors, and set the colors
 export CLICOLOR=1

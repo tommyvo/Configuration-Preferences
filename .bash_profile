@@ -5,6 +5,8 @@ alias "dir"="ls"
 alias "shutter_count"="killall PTPCamera ; gphoto2 --get-config /main/status/shuttercounter"
 alias "ll"="ls"
 alias "gti"="git"
+alias "sr"="redis-server /usr/local/etc/redis.conf"
+alias "sp"="postgres -D /usr/local/var/postgres"
 
 # Enable colors, and set the colors
 export CLICOLOR=1

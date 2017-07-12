@@ -1,4 +1,5 @@
 [core]
+  # editor = vim
   editor = subl -n -w
   excludesfile = /Users/studdmnky/.gitignore_global
 [user]
@@ -6,7 +7,7 @@
   email = tommy.l.vo@gmail.com
 [difftool "sourcetree"]
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path = 
+  path =
 [alias]
   lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
   st = status

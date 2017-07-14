@@ -15,6 +15,7 @@ https://packagecontrol.io/installation
 - LESS
 - Markdown Preview
 - Pretty JSON
+- React Templates
 - RSpec
 - Ruby Block Converter
 - Ruby Slim

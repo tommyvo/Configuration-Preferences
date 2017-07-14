@@ -1,15 +1,54 @@
 // ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings
 
 {
+  "added_words":
+  [
+    "Chelan",
+    "Styku",
+    "namespace",
+    "procs",
+    "Proc",
+    "proc"
+  ],
   "always_show_minimap_viewport": true,
   "bold_folder_labels": true,
   "color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
   "draw_minimap_border": false,
   "draw_white_space": "all",
   "fade_fold_buttons": false,
-  "file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.sublime-workspace"],
+  "file_exclude_patterns":
+  [
+    "*.pyc",
+    "*.pyo",
+    "*.exe",
+    "*.dll",
+    "*.obj",
+    "*.o",
+    "*.a",
+    "*.lib",
+    "*.so",
+    "*.dylib",
+    "*.ncb",
+    "*.sdf",
+    "*.suo",
+    "*.pdb",
+    "*.idb",
+    ".DS_Store",
+    "*.class",
+    "*.psd",
+    "*.sublime-workspace"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    "tmp",
+    "log",
+    ".idea"
+  ],
   "font_size": 15.0,
-  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "tmp", "log", ".idea"],
   "highlight_line": true,
   "ignored_packages":
   [
@@ -22,5 +61,6 @@
   "theme": "Soda Dark 3.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_automatic_white_space": true,
-  "trim_trailing_white_space_on_save": true
+  "trim_trailing_white_space_on_save": true,
+  "rulers": [80],
 }

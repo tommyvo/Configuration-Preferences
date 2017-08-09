@@ -18,7 +18,17 @@ source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
 NORMAL="\[\e[0m\]"
 YELLOW="\[\e[0;33m\]"
-PS1='\u@\h \w $(__git_ps1 "'$YELLOW'(%s) ")'$NORMAL'\$ '
+
+# <Current Directory> (<Branch Name>)
+PS1='\w $(__git_ps1 "'$YELLOW'(%s) ")'$NORMAL'\$ '
+
+# <Current Directory> (<Branch Name>) [pair]
+# PS1='\w'$YELLOW'$(parse_git) '$NORMAL'\$ '
+
+# <username>@<Machine Name> <Current Directory> (<Branch Name>)
+# PS1='\u@\h \w $(__git_ps1 "'$YELLOW'(%s) ")'$NORMAL'\$ '
+
+# <username>@<Machine Name> <Current Directory> (<Branch Name>) [pair]
 # PS1='\u@\h \w'$YELLOW'$(parse_git) '$NORMAL'\$ '
 
 # function to show git status on command prompt

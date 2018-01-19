@@ -50,4 +50,17 @@ fi
 
 ulimit -n 4096
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# Load RVM into a shell session *as a function*
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# Zeus helper function
+function z() {
+  zeus --log log/zeus.log --file-change-delay 1s $*
+}
+
+# rbenv
+eval "$(rbenv init -)"
+
+# Sym
+[[ -f /Users/studdmnky/.sym.symit.bash ]] && source /Users/studdmnky/.sym.symit.bash
+[[ -f /Users/studdmnky/.sym.completion.bash ]] && source /Users/studdmnky/.sym.completion.bash

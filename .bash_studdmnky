@@ -7,8 +7,7 @@ alias "dir"="ls -alF"
 alias "shutter_count"="killall PTPCamera ; gphoto2 --get-config /main/status/shuttercounter"
 alias "ll"="ls"
 alias "gti"="git"
-alias "sr"="redis-server /usr/local/etc/redis.conf"
-alias "sp"="postgres -D /usr/local/var/postgres"
+alias be="bundle exec"
 
 # Enable colors, and set the colors
 export CLICOLOR=1
@@ -66,8 +65,3 @@ eval "$(rbenv init -)"
 # Sym
 [[ -f /Users/studdmnky/.sym.symit.bash ]] && source /Users/studdmnky/.sym.symit.bash
 [[ -f /Users/studdmnky/.sym.completion.bash ]] && source /Users/studdmnky/.sym.completion.bash
-# WarpDir (v1.6.0, appended on 2018-01-19 13:47:51 -0800) BEGIN
-[[ -f ~/.bash_wd ]] && source ~/.bash_wd
-# WarpDir (v1.6.0, appended on 2018-01-19 13:47:51 -0800) END
-
-alias be="bundle exec"

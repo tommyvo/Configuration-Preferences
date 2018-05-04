@@ -73,7 +73,7 @@ export PGPASSWORD='data4Homebase'
 export DISABLE_SPRING=true
 
 # chefio username
-export DISABLE_SPRING=tommyvo
+export HOMEBASE_CHEF_USER=tommyvo
 
 # Adds NVM to path, because it fucking sucks.
 export NVM_DIR="$HOME/.nvm"

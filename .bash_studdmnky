@@ -65,3 +65,16 @@ eval "$(rbenv init -)"
 # Sym
 [[ -f /Users/studdmnky/.sym.symit.bash ]] && source /Users/studdmnky/.sym.symit.bash
 [[ -f /Users/studdmnky/.sym.completion.bash ]] && source /Users/studdmnky/.sym.completion.bash
+
+# Homebase PG password
+export PGPASSWORD='data4Homebase'
+
+# Fuck spring
+export DISABLE_SPRING=true
+
+# chefio username
+export DISABLE_SPRING=tommyvo
+
+# Adds NVM to path, because it fucking sucks.
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm

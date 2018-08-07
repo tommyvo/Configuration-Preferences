@@ -69,11 +69,16 @@ eval "$(rbenv init -)"
 # Homebase PG password
 export PGPASSWORD='data4Homebase'
 
+# Bitly login and APIs for production deploys
+export BITLY_LOGIN=
+export BITLY_API_KEY=
+
 # Fuck spring
 export DISABLE_SPRING=true
 
-# chefio username
+# chef.io stuff
 export HOMEBASE_CHEF_USER=tommyvo
+export EDITOR="subl -w"
 
 # Adds NVM to path, because it fucking sucks.
 export NVM_DIR="$HOME/.nvm"

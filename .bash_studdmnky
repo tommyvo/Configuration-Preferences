@@ -66,9 +66,6 @@ eval "$(rbenv init -)"
 [[ -f /Users/studdmnky/.sym.symit.bash ]] && source /Users/studdmnky/.sym.symit.bash
 [[ -f /Users/studdmnky/.sym.completion.bash ]] && source /Users/studdmnky/.sym.completion.bash
 
-# Homebase PG password
-export PGPASSWORD='data4Homebase'
-
 # Bitly login and APIs for production deploys
 export BITLY_LOGIN=
 export BITLY_API_KEY=

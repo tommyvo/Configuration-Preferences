@@ -1,16 +1,20 @@
 # Install pivotal_git_scripts gem
 # .pairs - configuration for 'git pair'
 
+# <initials>: <Firstname> <Lastname>[; <email-id>]
 pairs:
-  # <initials>: <Firstname> <Lastname>[; <email-id>]
-  tv: Tommy Vo; tommy.l.vo
+  #tv: Tommy Vo; tommy.l.vo
+  #jb: Jordan Brown; jordanfbrown
+  #ao: Anton Orel; eagle.anton
+  #jn: Justin Nazari; justin.nazari
+  #jd: Jason Dorn; apollo701
+  tv: Tommy Vo; tommy
+  jc: Joy Chepkorir; joy
+  cd: Carmen Diaz: carmen
 
-# email:
-  # prefix: pair
-  # domain: gmail.com
+email:
+  domain: joinhomebase.com
+  #domain: gmail.com
   # no_solo_prefix: true
-
-email_addresses:
-  tv: tommy.L.vo@gmail.com
 
 global: true

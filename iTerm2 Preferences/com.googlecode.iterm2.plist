@@ -226,24 +226,24 @@
 	</array>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
 	<data>
-	YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
-	AAGGoK4HCA8aGxwdHh8gJjAxMlUkbnVsbNIJCgsOWk5TLm9iamVjdHNWJGNsYXNzogwN
-	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
-	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
-	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAdKAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
-	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
-	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
-	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVVBcnJheYABrgsMEx4fICEiIyQqNDU2VSRu
+	dWxs0g0ODxJaTlMub2JqZWN0c1YkY2xhc3OiEBGAAoAKgA3TFA0OFRkdV05TLmtleXOj
+	FhcYgAOABIAFoxobHIAGgAeACIAJWklkZW50aWZpZXJVV2lkdGhWSGlkZGVuUTAjQGjA
+	AAAAAAAI0iUmJyhaJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiJylYTlNP
+	YmplY3TTFA0OKy8doxYXGIADgASABaMwMRyAC4AMgAiACVExI0B0oAAAAAAA0iUmNzhe
+	TlNNdXRhYmxlQXJyYXmjNzkpV05TQXJyYXkACAARABoAJAApADIANwBJAEwAUgBUAGMA
+	aQBuAHkAgACDAIUAhwCJAJAAmACcAJ4AoACiAKYAqACqAKwArgC5AL8AxgDIANEA0gDX
+	AOIA6wD4APsBBAELAQ8BEQETARUBGQEbAR0BHwEhASMBLAExAUABRAAAAAAAAAIBAAAA
 	AAAAADoAAAAAAAAAAAAAAAAAAAFM
 	</data>
 	<key>NSTableView Sort Ordering v2 KeyBingingTable</key>
 	<data>
-	YnBsaXN0MDDUAQIDBAUGFBVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
-	AAGGoKMHCA1VJG51bGzSCQoLDFpOUy5vYmplY3RzViRjbGFzc6CAAtIODxARWiRjbGFz
-	c25hbWVYJGNsYXNzZXNeTlNNdXRhYmxlQXJyYXmjEBITV05TQXJyYXlYTlNPYmplY3Rf
-	EA9OU0tleWVkQXJjaGl2ZXLRFhdVQXJyYXmAAQgRGiMtMjc7QUZRWFlbYGt0g4ePmKqt
-	swAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVVBcnJheYABowsMEVUkbnVsbNINDg8QWk5T
+	Lm9iamVjdHNWJGNsYXNzoIAC0hITFBVaJGNsYXNzbmFtZVgkY2xhc3Nlc15OU011dGFi
+	bGVBcnJheaMUFhdXTlNBcnJheVhOU09iamVjdAgRGiQpMjdJTFJUWF5jbnV2eH2IkaCk
+	rAAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
@@ -265,7 +265,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>541 674 928 394 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>241 57 1438 943 0 0 1920 1057 </string>
+	<string>0 0 1920 1057 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 0 2560 1417 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -2042,16 +2042,16 @@
 		<string>3.3.4</string>
 		<string>3.3.1</string>
 		<string>3.3.3</string>
-		<string>3.3.0</string>
-		<string>3.3.2</string>
 		<string>3.2.9</string>
+		<string>3.3.2</string>
+		<string>3.3.0</string>
 	</array>
 	<key>NoSyncFrame_SessionsPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {2560, 1440}}</string>
+		<string>{{0, 0}, {1920, 1080}}</string>
 		<key>topLeft</key>
-		<string>{977, 967}</string>
+		<string>{493, 629}</string>
 	</dict>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
@@ -2067,7 +2067,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>4717ABDE-79C3-4E89-B3E6-C11DAEA49206</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>34</integer>
+	<integer>38</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2901,7 +2901,7 @@
 				<key>Has Toolbelt</key>
 				<false/>
 				<key>Height</key>
-				<real>877</real>
+				<real>1057</real>
 				<key>Hide After Opening</key>
 				<false/>
 				<key>Hiding Toolbelt Should Resize Window</key>
@@ -3189,7 +3189,7 @@
 												<real>1</real>
 											</dict>
 											<key>Guid</key>
-											<string>ACE8A7F8-EDDE-474B-BDF9-92E287ED1BE0</string>
+											<string>BB8A7C35-D573-4F52-9831-187824EEFCE9</string>
 											<key>Hide After Opening</key>
 											<false/>
 											<key>Horizontal Spacing</key>
@@ -3819,7 +3819,7 @@
 											<string>/Users/studdmnky</string>
 										</dict>
 										<key>Columns</key>
-										<integer>204</integer>
+										<integer>272</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
@@ -3846,9 +3846,9 @@
 											<string>Shell Launcher</string>
 										</dict>
 										<key>Rows</key>
-										<integer>49</integer>
+										<integer>59</integer>
 										<key>Session GUID</key>
-										<string>C749F60D-4A22-4059-96C3-5D50CD766080</string>
+										<string>7965CF43-C579-41C0-8204-9758FD8F80DC</string>
 										<key>Shell Integration Ever Used</key>
 										<false/>
 										<key>Short Lived Single Use</key>
@@ -3856,16 +3856,18 @@
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Users/studdmnky/Documents/work/Homebase/chef</string>
+										<string>/Users/studdmnky/Documents/work/Archive/Homebase/chef</string>
+										<key>Working Directory Poller Disabled</key>
+										<false/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>839</real>
+										<real>1019</real>
 										<key>width</key>
-										<real>1440</real>
+										<real>1920</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -3878,9 +3880,9 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>839</real>
+								<real>1019</real>
 								<key>width</key>
-								<real>1440</real>
+								<real>1920</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -4160,7 +4162,7 @@
 														<real>1</real>
 													</dict>
 													<key>Guid</key>
-													<string>C6E09404-84E2-4B52-A7DE-A4215B71E3D5</string>
+													<string>7F0CB638-135D-4EB4-ACD2-F6EB8362A53B</string>
 													<key>Hide After Opening</key>
 													<false/>
 													<key>Horizontal Spacing</key>
@@ -4790,7 +4792,7 @@
 													<string>/Users/studdmnky</string>
 												</dict>
 												<key>Columns</key>
-												<integer>101</integer>
+												<integer>135</integer>
 												<key>Commands</key>
 												<array/>
 												<key>Directories</key>
@@ -4819,9 +4821,9 @@
 													<string>Command</string>
 												</dict>
 												<key>Rows</key>
-												<integer>16</integer>
+												<integer>20</integer>
 												<key>Session GUID</key>
-												<string>CB7C1AFB-B026-4A2F-ABC6-606F4D397702</string>
+												<string>74501418-5973-4943-B0A9-913640D18BDA</string>
 												<key>Shell Integration Ever Used</key>
 												<false/>
 												<key>Short Lived Single Use</key>
@@ -4829,16 +4831,18 @@
 												<key>Substitutions</key>
 												<dict/>
 												<key>Working Directory</key>
-												<string>/Users/studdmnky/Documents/work/Homebase/Homebase1/client</string>
+												<string>/Users/studdmnky/Documents/work/Archive/Homebase/Homebase1</string>
+												<key>Working Directory Poller Disabled</key>
+												<false/>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>282</real>
+												<real>344</real>
 												<key>width</key>
-												<real>718</real>
+												<real>957</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
@@ -5107,7 +5111,7 @@
 														<real>1</real>
 													</dict>
 													<key>Guid</key>
-													<string>5F4D5F76-9879-467E-B8A3-08D51F0A702B</string>
+													<string>4B9713FC-F329-45C0-BD0A-7A94728AD539</string>
 													<key>Hide After Opening</key>
 													<false/>
 													<key>Horizontal Spacing</key>
@@ -5737,7 +5741,7 @@
 													<string>/Users/studdmnky</string>
 												</dict>
 												<key>Columns</key>
-												<integer>101</integer>
+												<integer>135</integer>
 												<key>Commands</key>
 												<array/>
 												<key>Directories</key>
@@ -5766,9 +5770,9 @@
 													<string>Command</string>
 												</dict>
 												<key>Rows</key>
-												<integer>17</integer>
+												<integer>21</integer>
 												<key>Session GUID</key>
-												<string>D90229DF-9DCA-4600-B1DB-60C822F63CC3</string>
+												<string>C67A5A52-3D94-453D-BA7F-93D24E8890C5</string>
 												<key>Shell Integration Ever Used</key>
 												<false/>
 												<key>Short Lived Single Use</key>
@@ -5776,20 +5780,22 @@
 												<key>Substitutions</key>
 												<dict/>
 												<key>Working Directory</key>
-												<string>/Users/studdmnky/Documents/work/Homebase/Homebase1</string>
+												<string>/Users/studdmnky/Documents/work/Archive/Homebase/Homebase1</string>
+												<key>Working Directory Poller Disabled</key>
+												<false/>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>293</real>
+												<real>361</real>
 												<key>width</key>
-												<real>718</real>
+												<real>957</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
-												<real>283</real>
+												<real>345</real>
 											</dict>
 										</dict>
 										<dict>
@@ -6058,7 +6064,7 @@
 														<real>1</real>
 													</dict>
 													<key>Guid</key>
-													<string>A82EB61B-A310-4CAD-95FD-E4E1C63BDBC9</string>
+													<string>AAF26B53-22C3-4FA0-9F41-3D9D2DBD4829</string>
 													<key>Hide After Opening</key>
 													<false/>
 													<key>Horizontal Spacing</key>
@@ -6688,7 +6694,7 @@
 													<string>/Users/studdmnky</string>
 												</dict>
 												<key>Columns</key>
-												<integer>101</integer>
+												<integer>135</integer>
 												<key>Commands</key>
 												<array/>
 												<key>Directories</key>
@@ -6717,9 +6723,9 @@
 													<string>Command</string>
 												</dict>
 												<key>Rows</key>
-												<integer>15</integer>
+												<integer>18</integer>
 												<key>Session GUID</key>
-												<string>18348B63-2C0D-4461-973C-6606ECC1F42C</string>
+												<string>76ACF2B1-628A-47B9-92DB-C00E9A858D05</string>
 												<key>Shell Integration Ever Used</key>
 												<false/>
 												<key>Short Lived Single Use</key>
@@ -6727,20 +6733,22 @@
 												<key>Substitutions</key>
 												<dict/>
 												<key>Working Directory</key>
-												<string>/Users/studdmnky/Documents/work/Homebase/Homebase1</string>
+												<string>/Users/studdmnky/Documents/work/Archive/Homebase/Homebase1</string>
+												<key>Working Directory Poller Disabled</key>
+												<false/>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>262</real>
+												<real>312</real>
 												<key>width</key>
-												<real>718</real>
+												<real>957</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
-												<real>577</real>
+												<real>707</real>
 											</dict>
 										</dict>
 									</array>
@@ -6749,9 +6757,9 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>839</real>
+										<real>1019</real>
 										<key>width</key>
-										<real>718</real>
+										<real>957</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -6765,7 +6773,7 @@
 									<array>
 										<dict>
 											<key>Is Active</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>Session</key>
 											<dict>
 												<key>Bookmark</key>
@@ -7029,7 +7037,7 @@
 														<real>1</real>
 													</dict>
 													<key>Guid</key>
-													<string>C04DB120-10AD-4FC4-AD89-859DE6E1161C</string>
+													<string>CE46066B-1738-4B45-87E1-0BACA1EC21DE</string>
 													<key>Hide After Opening</key>
 													<false/>
 													<key>Horizontal Spacing</key>
@@ -7659,7 +7667,7 @@
 													<string>/Users/studdmnky</string>
 												</dict>
 												<key>Columns</key>
-												<integer>101</integer>
+												<integer>136</integer>
 												<key>Commands</key>
 												<array/>
 												<key>Directories</key>
@@ -7686,9 +7694,9 @@
 													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>25</integer>
+												<integer>30</integer>
 												<key>Session GUID</key>
-												<string>D91719A3-34F1-4D6F-963E-EA44F6AE9740</string>
+												<string>74116210-5A49-4A48-A575-0BAE926FCC10</string>
 												<key>Shell Integration Ever Used</key>
 												<false/>
 												<key>Short Lived Single Use</key>
@@ -7696,16 +7704,18 @@
 												<key>Substitutions</key>
 												<dict/>
 												<key>Working Directory</key>
-												<string>/Users/studdmnky/Documents/work/Homebase/Homebase1</string>
+												<string>/Users/studdmnky/Documents/work/Archive/Homebase/Homebase1</string>
+												<key>Working Directory Poller Disabled</key>
+												<false/>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>429</real>
+												<real>521</real>
 												<key>width</key>
-												<real>721</real>
+												<real>962</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
@@ -7714,7 +7724,7 @@
 										</dict>
 										<dict>
 											<key>Is Active</key>
-											<integer>1</integer>
+											<integer>0</integer>
 											<key>Session</key>
 											<dict>
 												<key>Bookmark</key>
@@ -7978,7 +7988,7 @@
 														<real>1</real>
 													</dict>
 													<key>Guid</key>
-													<string>B65EEE89-720D-42D5-9862-C21D50BA1671</string>
+													<string>89FC0A67-B588-4997-93A6-4FD1BC70F30D</string>
 													<key>Hide After Opening</key>
 													<false/>
 													<key>Horizontal Spacing</key>
@@ -8608,7 +8618,7 @@
 													<string>/Users/studdmnky</string>
 												</dict>
 												<key>Columns</key>
-												<integer>101</integer>
+												<integer>136</integer>
 												<key>Commands</key>
 												<array/>
 												<key>Directories</key>
@@ -8635,9 +8645,9 @@
 													<string>Shell Launcher</string>
 												</dict>
 												<key>Rows</key>
-												<integer>23</integer>
+												<integer>29</integer>
 												<key>Session GUID</key>
-												<string>680843CD-FB5D-4E70-AD77-8D45A655FC82</string>
+												<string>70F8F2E4-A46C-4CC5-8FCC-FF9690BEB613</string>
 												<key>Shell Integration Ever Used</key>
 												<false/>
 												<key>Short Lived Single Use</key>
@@ -8645,20 +8655,22 @@
 												<key>Substitutions</key>
 												<dict/>
 												<key>Working Directory</key>
-												<string>/Users/studdmnky/Documents/work/Homebase/Homebase1</string>
+												<string>/Users/studdmnky/Documents/work/Archive/Homebase/Homebase1</string>
+												<key>Working Directory Poller Disabled</key>
+												<false/>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
 											<key>frame</key>
 											<dict>
 												<key>height</key>
-												<real>409</real>
+												<real>497</real>
 												<key>width</key>
-												<real>721</real>
+												<real>962</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
-												<real>430</real>
+												<real>522</real>
 											</dict>
 										</dict>
 									</array>
@@ -8667,11 +8679,11 @@
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>839</real>
+										<real>1019</real>
 										<key>width</key>
-										<real>721</real>
+										<real>962</real>
 										<key>x</key>
-										<real>719</real>
+										<real>958</real>
 										<key>y</key>
 										<real>0.0</real>
 									</dict>
@@ -8684,9 +8696,9 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>839</real>
+								<real>1019</real>
 								<key>width</key>
-								<real>1440</real>
+								<real>1920</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -8714,7 +8726,7 @@
 				<key>Use Transparency</key>
 				<true/>
 				<key>Width</key>
-				<real>1440</real>
+				<real>1920</real>
 				<key>Window Type</key>
 				<integer>13</integer>
 				<key>X Origin</key>

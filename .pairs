@@ -4,17 +4,9 @@
 # <initials>: <Firstname> <Lastname>[; <email-id>]
 pairs:
   #tv: Tommy Vo; tommy.l.vo
-  #jb: Jordan Brown; jordanfbrown
-  #ao: Anton Orel; eagle.anton
-  #jn: Justin Nazari; justin.nazari
-  #jd: Jason Dorn; apollo701
-  tv: Tommy Vo; tommy
-  jc: Joy Chepkorir; joy
-  cd: Carmen Diaz; carmen
 
 email:
-  domain: joinhomebase.com
-  #domain: gmail.com
+  domain: gmail.com
   # no_solo_prefix: true
 
 global: true

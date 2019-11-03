@@ -14,6 +14,9 @@ export CLICOLOR=1
 
 export PATH=/usr/local/bin:$PATH
 
+# Suppress zsh warning
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # Colorized Git branch
 source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true

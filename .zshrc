@@ -21,6 +21,7 @@ YELLOW="\[\e[0;33m\]"
 NEWLINE=$'\n'
 
 # function to show git status on command prompt
+# TODO: this does not show when a branch has been modified
 function parse_git() {
   BRANCH="$(__git_ps1)"
   PAIR="$(git config --get user.initials)"

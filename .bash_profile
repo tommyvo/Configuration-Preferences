@@ -8,6 +8,7 @@ alias "shutter_count"="killall PTPCamera ; gphoto2 --get-config /main/status/shu
 alias "ll"="ls"
 alias "gti"="git"
 alias be="bundle exec"
+alias sp="git sp && bundle && rake db:migrate db:test:prepare"
 
 # Enable colors, and set the colors
 export CLICOLOR=1

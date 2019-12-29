@@ -23,14 +23,14 @@ NEWLINE=$'\n'
 # function to show git status on command prompt
 # TODO: this does not show when a branch has been modified
 function parse_git() {
-  BRANCH="$(__git_ps1)"
-  PAIR="$(git config --get user.initials)"
-  if [ "$PAIR" = "" ] ; then
-    PAIR='UNPAIRED'
-  fi
-  if [ "$BRANCH" != "" ] ; then
-    echo "$BRANCH [$PAIR]"
-  fi
+  # BRANCH="$(__git_ps1)"
+  # PAIR="$(git config --get user.initials)"
+  # if [ "$PAIR" = "" ] ; then
+  #   PAIR='UNPAIRED'
+  # fi
+  # if [ "$BRANCH" != "" ] ; then
+  #   echo "$BRANCH [$PAIR]"
+  # fi
 }
 
 # <Current Directory> (<Branch Name>) [pair]

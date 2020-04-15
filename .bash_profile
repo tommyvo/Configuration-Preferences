@@ -73,6 +73,7 @@ export DISABLE_SPRING=true
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-# setup Golang workspace
+# setup Golang workspace and root
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"

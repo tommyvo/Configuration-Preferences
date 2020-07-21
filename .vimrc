@@ -28,3 +28,5 @@ highlight ColorColumn ctermbg=239 guibg=#000000
 set tw=80
 
 set ruler
+
+set mouse=a

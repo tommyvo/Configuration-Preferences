@@ -22,3 +22,4 @@ https://packagecontrol.io/installation
 - RubyTest
 - Sass
 - Theme-Soda
+- VimL

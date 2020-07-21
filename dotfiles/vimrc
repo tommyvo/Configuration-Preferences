@@ -1,4 +1,5 @@
 " Invoke vim-plug
+" Invoke vim-plug
 " Install via:
 "
 " curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -23,10 +24,8 @@ Plug 'tpope/vim-rails'
 
 " This sets a buffer at line 80, and will automatically put new lines for
 " anything that goes past line 80.
-let &colorcolumn=join(range(81,999),",")
-highlight ColorColumn ctermbg=239 guibg=#000000
+let &colorcolumn=join(range(81,81),",")
+highlight ColorColumn ctermbg=238
 set tw=80
 
 set ruler
-
-set mouse=a

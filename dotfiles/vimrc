@@ -25,7 +25,7 @@ Plug 'tpope/vim-rails'
 " This sets a buffer at line 80, and will automatically put new lines for
 " anything that goes past line 80.
 let &colorcolumn=join(range(81,81),",")
-highlight ColorColumn ctermbg=238
+highlight ColorColumn ctermbg=235
 set tw=80
 
 set ruler

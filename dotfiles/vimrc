@@ -5,21 +5,39 @@
 "
 call plug#begin('~/.vim/plugged')
 
-" From https://medium.com/@todariasova/rails-vim-101-essential-vim-plugins-for-ruby-on-rails-development-d74e808d186d
-" Have lines number, syntax highlighting, and filetype ident on
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+Plug 'mtscout6/vim-cjsx'
+Plug 'briancollins/vim-jst'
+Plug 'skammer/vim-css-color'
+Plug 'vim-scripts/hexHighlight.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tpope/vim-commentary'
+
+call plug#end()
+
+" VIM specific settings
+set nowrap
+set mouse=a
 set number
 syntax on
 filetype plugin indent on
 filetype on
 filetype indent on
 
-" Customize auto file indentation for ruby and erb files
+" Auto-commands
 autocmd FileType ruby setlocal expandtab shiftwidth=2 tabstop=2
 autocmd FileType eruby setlocal expandtab shiftwidth=2 tabstop=2
 
-" Plugins for better syntax highlighting for Ruby and Rails
-Plug 'vim-ruby/vim-ruby'
-Plug 'tpope/vim-rails'
+" For NERDTree
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " This sets a buffer at line 80, and will automatically put new lines for
 " anything that goes past line 80.
@@ -27,3 +45,9 @@ let &colorcolumn=join(range(81,81),",")
 highlight ColorColumn ctermbg=235
 set tw=80
 set ruler
+
+" Key-maps
+nnoremap <C-a> <Home>
+nnoremap <C-e> <End>
+nnoremap <silent> <C-n> :NERDTreeToggle<CR>
+nnoremap <silent> <C-m> :NERDTreeFind<CR>

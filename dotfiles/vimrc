@@ -5,22 +5,22 @@
 "
 call plug#begin('~/.vim/plugged')
 
-Plug 'vim-ruby/vim-ruby'
-Plug 'tpope/vim-rails'
-Plug 'mtscout6/vim-cjsx'
-Plug 'briancollins/vim-jst'
-Plug 'skammer/vim-css-color'
-Plug 'vim-scripts/hexHighlight.vim'
-Plug 'vim-airline/vim-airline'
-Plug 'preservim/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'tpope/vim-commentary'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'airblade/vim-gitgutter'
-Plug 'mileszs/ack.vim'
-Plug 'tpope/vim-fugitive'
+Plug 'briancollins/vim-jst'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ervandew/supertab'
+Plug 'mileszs/ack.vim'
+Plug 'mtscout6/vim-cjsx'
 Plug 'pangloss/vim-javascript'
+Plug 'preservim/nerdtree'
+Plug 'skammer/vim-css-color'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rails'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-ruby/vim-ruby'
+Plug 'vim-scripts/hexHighlight.vim'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
 

@@ -17,6 +17,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-commentary'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'airblade/vim-gitgutter'
+Plug 'mileszs/ack.vim'
 
 call plug#end()
 
@@ -36,6 +37,7 @@ autocmd FileType eruby setlocal expandtab shiftwidth=2 tabstop=2
 " Use ag for ctrlp.vim
 if executable('ag')
   " Use ag over grep
+  let g:ackprg = 'ag --vimgrep'
   set grepprg=ag\ --nogroup\ --nocolor
 
   " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
@@ -72,3 +74,5 @@ nnoremap <C-a> <Home>
 nnoremap <C-e> <End>
 nnoremap <silent> <C-n> :NERDTreeToggle<CR>
 nnoremap <silent> <C-b> :NERDTreeFind<CR>
+cnoreabbrev Ack Ack!
+nnoremap <C-f> :Ack!<Space>

@@ -63,4 +63,4 @@ set ruler
 nnoremap <C-a> <Home>
 nnoremap <C-e> <End>
 nnoremap <silent> <C-n> :NERDTreeToggle<CR>
-nnoremap <silent> <C-m> :NERDTreeFind<CR>
+nnoremap <silent> <C-b> :NERDTreeFind<CR>

@@ -16,6 +16,7 @@ Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-commentary'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 

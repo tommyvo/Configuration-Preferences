@@ -24,6 +24,10 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
 
+" Create ~/.vim/tmp if it doesn't exist, and set the vim working directory there
+silent !mkdir -p ~/.vim/tmp
+set directory^=$HOME/.vim/tmp//
+
 " VIM specific settings
 set nowrap
 set mouse=a

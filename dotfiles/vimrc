@@ -20,6 +20,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'ervandew/supertab'
+Plug 'pangloss/vim-javascript'
 
 call plug#end()
 

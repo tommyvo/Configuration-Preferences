@@ -26,5 +26,4 @@ Plug 'tpope/vim-rails'
 let &colorcolumn=join(range(81,81),",")
 highlight ColorColumn ctermbg=235
 set tw=80
-
 set ruler

@@ -55,6 +55,7 @@ if executable('ag')
 endif
 
 " For vim-gitgutter
+set updatetime=100
 highlight SignColumn guibg=0 ctermbg=0
 highlight GitGutterAdd guifg=#009900 ctermfg=2
 highlight GitGutterChange guifg=#bbbb00 ctermfg=3

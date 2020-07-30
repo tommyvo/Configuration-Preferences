@@ -38,6 +38,8 @@ filetype on
 filetype indent on
 set spelllang=en
 set spell
+highlight clear SpellBad
+highlight SpellBad cterm=underline
 
 " Auto-commands
 autocmd FileType ruby setlocal expandtab shiftwidth=2 tabstop=2

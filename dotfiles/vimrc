@@ -36,6 +36,8 @@ syntax on
 filetype plugin indent on
 filetype on
 filetype indent on
+set spelllang=en
+set spell
 
 " Auto-commands
 autocmd FileType ruby setlocal expandtab shiftwidth=2 tabstop=2

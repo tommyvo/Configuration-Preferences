@@ -21,6 +21,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/hexHighlight.vim'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'jparise/vim-graphql'
 
 call plug#end()
 
